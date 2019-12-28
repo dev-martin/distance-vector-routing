@@ -6,6 +6,7 @@ Virtual network on top of UDP, in which each UNIX process will be a node. Networ
 
 
 To run:(Remember to make first)(*Not finished*)
+
 ``rt -n <node_id> [-f <scenario_file>] [-u update-time] [-t time-between-event-sets] [-v]``
 
 The -n option is mandatory and specifies the node id.
@@ -16,5 +17,6 @@ If the -v (verbose) option is **not present**, to stdout:
   1) each event in the event set that it acts upon using print event, 
   2) the routing table entry after it was changed in response to processing a routing update using print rte 
   3) the full routing table after dispatching the entire event set using print rt.
+  
 If the -v option **is present**, then the full routing table should additionally be printed after processing
 every routing update (whether or not it changed any entries) using print rt.
