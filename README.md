@@ -11,9 +11,9 @@ To run:(Remember to make first)(*Not finished*)
 
 The -n option is mandatory and specifies the node id.
 
-the optional -f parameter specifies a scenario file (default config).
+The optional -f parameter specifies a scenario file (default config).
 
-the optional -t parameter specifies how long to wait between executing event sets (default 30 seconds).
+The optional -t parameter specifies how long to wait between executing event sets (default 30 seconds).
 
 The -u option specifies how long to wait (in seconds) before sending out distance vector updates; this should default to 3 seconds.
 
